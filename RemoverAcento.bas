@@ -9,5 +9,5 @@ Function RemoverAcento(Caract As String)
     B = Mid(RegChars, i, 1)
     Caract = Replace(Caract, A, B)
   Next
-  Acento = Caract
+  RemoverAcento = Caract
 End Function
